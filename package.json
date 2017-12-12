@@ -1,0 +1,62 @@
+{
+  "name": "react-apollo-instagram-example",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "react-scripts": "^0.8.1"
+  },
+  "dependencies": {
+    "apollo-client": "^0.7.0",
+    "bulma": "^0.6.1",
+    "bulma-extensions": "^0.5.2",
+    "bulma-pageloader": "^0.1.0",
+    "cloudinary-react": "^1.0.4",
+    "cross-env": "^3.1.4",
+    "google-map-react": "^0.24.0",
+    "graphql-tag": "^1.2.1",
+    "leaflet": "^1.1.0",
+    "moment": "2.19.3",
+    "node-sass-chokidar": "^0.0.3",
+    "npm-run-all": "^4.0.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.3.1",
+    "react-apollo": "^0.8.1",
+    "react-bootstrap": "^0.30.7",
+    "react-color": "^2.3.1",
+    "react-dom": "^15.3.1",
+    "react-dropzone": "^3.5.3",
+    "react-helmet": "^3.1.0",
+    "react-leaflet": "^1.4.0",
+    "react-moment": "0.6.8",
+    "react-router": "^2.8.0",
+    "react-slack-chat": "1.8.3",
+    "superagent": "^2.1.0",
+    "tachyons": "^4.3.1",
+    "tachyons-aspect-ratios": "^1.0.1",
+    "tachyons-background-position": "^1.0.3",
+    "tachyons-background-size": "^5.0.5",
+    "tachyons-clears": "^3.0.4",
+    "tachyons-display": "^5.0.4",
+    "tachyons-floats": "^3.0.4",
+    "tachyons-font-weight": "^5.0.4",
+    "tachyons-links": "^3.0.9",
+    "tachyons-sass": "^4.7.4",
+    "tachyons-skins": "^4.0.3",
+    "tachyons-spacing": "^6.0.4",
+    "tachyons-type-scale": "^6.0.4",
+    "tachyons-widths": "^5.1.1"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p start-js",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
