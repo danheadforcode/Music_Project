@@ -3,13 +3,12 @@
  */
 import React from "react";
 import { Link } from "react-router";
-import bg from "../assets/logo_b_b_b.jpg";
 // import bg from '../assets/NIC_0713.jpg'
 
 class Header extends React.Component {
   render = () => {
     return (
-      <section className="hero is-medium is-dark">
+      <section className="hero is-small is-dark">
        <div className="hero-head">
         <header className="navbar">
           <div className="container">

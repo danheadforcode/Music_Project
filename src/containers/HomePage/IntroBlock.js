@@ -15,24 +15,7 @@ class IntroBlock extends React.Component {
     return (
       <section className="homepage-introblock">
         <div className="container">
-          <div className="columns">
-            <div className="column is-half">
-              <h2 className="title">Welcome</h2>
-              <div className="content is-large">
-                <p>
-                  <br/>
-                  Be sure to follow me on my social media to be notified for the lastest updates!
-                </p>
-              </div>
-            </div>
-            <div className="column is-half">
-              <h2 className="title"></h2>
-              <div className="content is-large">
-                <p>
-                </p>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </section>
     )
