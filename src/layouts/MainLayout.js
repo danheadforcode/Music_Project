@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 // import Nav from '../components/Nav'
-import { Link } from "react-router";
+// import { Link } from "react-router";
 import { graphql } from "react-apollo";
 import { withRouter } from "react-router";
 import gql from "graphql-tag";

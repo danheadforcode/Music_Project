@@ -2,7 +2,6 @@
  * Component that lists all Posts
  */
 import React from "react";
-import { link } from "fs";
 // import { Link } from 'react-router'
 
 class Footer extends React.Component {

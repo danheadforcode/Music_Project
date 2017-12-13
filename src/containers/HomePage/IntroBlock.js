@@ -1,5 +1,5 @@
 import React from 'react';
-import logo_dim from "../../assets/logo_dim.png";
+// import logo_dim from "../../assets/logo_dim.png";
 import {
   Link
 } from 'react-router'
