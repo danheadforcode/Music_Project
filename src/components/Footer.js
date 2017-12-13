@@ -19,7 +19,7 @@ class Footer extends React.Component {
               </div>
               <div className="column is-one-sixth">
                 <a href="https://www.facebook.com/DanIsMeProductions">
-                  <i className="fab fa-facebook-square fa-3x is-black" aria-hidden="false"></i>
+                  <i className="fab fa-facebook-square fa-3x is-black" aria-hidden="false"> </i>
                 </a>
               </div>
               <div className="column is-one-sixth">
