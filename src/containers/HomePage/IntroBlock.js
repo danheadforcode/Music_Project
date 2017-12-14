@@ -21,7 +21,7 @@ class IntroBlock extends React.Component {
               <div className="card">
                 <div className="card-item">
                   <figure className="image is-3by2">
-                    <img src={Inspiration} alt="Placeholder image"/>
+                    <img src={Inspiration} alt="Inspiration Photo"/>
                   </figure>
                 </div>
                   <div className="card-content">
