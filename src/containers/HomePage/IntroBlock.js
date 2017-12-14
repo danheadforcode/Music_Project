@@ -47,7 +47,7 @@ class IntroBlock extends React.Component {
                 <div className="card-content">
                     <div className="media-content">
                       <h2 className="title is-4">Products</h2> 
-                        Welcome to the online store! Get great items for great prices with a sucure payment process.
+                        Welcome to the online store! Get great items for great prices with a secure payment process.
                     </div>
                   </div>
               </div>
