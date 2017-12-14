@@ -19,7 +19,7 @@ class Header extends React.Component {
                   Home
                 </span>  
               </Link>    
-              <Link to="/events" className="navbar-item">
+              <Link to="/products" className="navbar-item">
                 <span>Products</span>
               </Link>
              </div> 
