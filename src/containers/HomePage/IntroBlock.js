@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo_dim from "../../assets/logo_dim.png";
-import Inspiration from "../assets/light_bulb.jpg";
+import Inspiration from "../../assets/light_bulb.jpg";
 import {
   Link
 } from 'react-router'
