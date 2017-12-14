@@ -39,7 +39,7 @@ class IntroBlock extends React.Component {
               <div className="card">
                 <div className="card-item">
                   <figure className="image is-3by2">
-                    <a href="/events"> 
+                    <a href="/products"> 
                       <img src={Products} alt="Placeholder image"/>
                     </a>  
                   </figure>
