@@ -1,6 +1,9 @@
 import React from 'react';
 // import logo_dim from "../../assets/logo_dim.png";
 import Inspiration from "../../assets/light_bulb.jpg";
+import Products from "../../assets/guitar_strings.jpg";
+import Showcase from "../../assets/showcase.jpg";
+import Contact from "../../assets/phone.jpg";
 import {
   Link
 } from 'react-router'
@@ -36,7 +39,7 @@ class IntroBlock extends React.Component {
               <div className="card">
                 <div className="card-item">
                   <figure className="image is-3by2">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+                    <img src={Products} alt="Placeholder image"/>
                   </figure>
                 </div>
                 <div className="card-content">
@@ -51,7 +54,7 @@ class IntroBlock extends React.Component {
               <div className="card">
                 <div className="card-item">
                   <figure className="image is-3by2">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+                    <img src={Showcase} alt="Placeholder image"/>
                   </figure>
                 </div>
                 <div className="card-content">
@@ -66,7 +69,7 @@ class IntroBlock extends React.Component {
               <div className="card">
                 <div className="card-item">
                   <figure className="image is-3by2">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+                    <img src={Contact} alt="Placeholder image"/>
                   </figure>
                 </div>
                 <div className="card-content">
