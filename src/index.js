@@ -16,7 +16,7 @@ import PlaceListPage from './containers/PlaceListPage'
 import ListCategory from './containers/ListCategory'
 import CreatePage from './containers/CreatePage'
 import CreateEvent from './containers/CreateEvent'
-import PhotoPage from './containers/PhotoPage'
+import InspirationPage from './containers/InspirationPage'
 import EventPage from './containers/EventPage'
 import DashboardPage from './containers/DashboardPage'
 import PlacePage from './containers/PlacePage'
@@ -64,7 +64,7 @@ ReactDOM.render((
         {/*<Route path='/contacts' component={BusinessPage} />*/}
         <Route path='/photos/create' component={CreatePage} />
         <Route path='/events/create' component={CreateEvent} />
-        <Route path='/photos/view/:id' component={PhotoPage} />
+        <Route path='/inspiration' component={InspirationPage} />
         <Route path='/events/:id' component={EventPage} />
         {/*<Route path='/categories/create' component={CreateCategory} />*/}
         <Route path='/categories' component={ListCategory} />
