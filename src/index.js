@@ -24,6 +24,7 @@ import ProductListPage from './containers/ProductListPage'
 import MessagePage from './containers/MessagePage'
 import ThankyouPage from './containers/ThankyouPage'
 import ShowcasePage from './containers/ShowcasePage'
+import ContactPage from './containers/ContactPage'
 // import CreateCategory from './containers/CreateCategory'
 
 import { Router, Route, browserHistory } from 'react-router'
@@ -74,6 +75,7 @@ ReactDOM.render((
         <Route path='registeryourinterest' component={MessagePage}/>
         <Route path='thankyou' component={ThankyouPage}/>
         <Route path='showcase' component={ShowcasePage}/>
+        <Route path='contact' component={ContactPage}/>
       </Route>
     </Router>
   </ApolloProvider>
