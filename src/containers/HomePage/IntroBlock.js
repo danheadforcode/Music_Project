@@ -28,7 +28,6 @@ class IntroBlock extends React.Component {
                     <div className="media-content">
                       <h2 className="title is-4">Inspiration</h2> 
                         This is a collection of media that users can view and add to to come up  with the next hit!
-                        
                     </div>
                   </div>  
               </div>
@@ -40,6 +39,12 @@ class IntroBlock extends React.Component {
                     <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                   </figure>
                 </div>
+                <div className="card-content">
+                    <div className="media-content">
+                      <h2 className="title is-4">Products</h2> 
+                        Welcome to the online store! Get great items for great prices with a sucure payment process.
+                    </div>
+                  </div>
               </div>
             </div>  
             <div className="column">  
@@ -49,6 +54,12 @@ class IntroBlock extends React.Component {
                     <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                   </figure>
                 </div>
+                <div className="card-content">
+                    <div className="media-content">
+                      <h2 className="title is-4">Showcase</h2> 
+                        This is a collection of pictures, videos and audio clips that users can show off!
+                    </div>
+                  </div>
               </div>
             </div>  
             <div className="column">  
@@ -58,6 +69,12 @@ class IntroBlock extends React.Component {
                     <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                   </figure>
                 </div>
+                <div className="card-content">
+                    <div className="media-content">
+                      <h2 className="title is-4">Contact</h2> 
+                        Need help with something or want to get in touch? Visit the contact page for more details!
+                    </div>
+                  </div>
               </div>
             </div>  
           </div>    
