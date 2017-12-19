@@ -1,8 +1,8 @@
 import React from 'react';
 // import logo_dim from "../../assets/logo_dim.png";
-import Inspiration from "../../assets/light_bulb.jpg";
+// import Inspiration from "../../assets/light_bulb.jpg";
 import Products from "../../assets/guitar_strings.jpg";
-import Showcase from "../../assets/showcase.jpg";
+// import Showcase from "../../assets/showcase.jpg";
 import Contact from "../../assets/phone.jpg";
 import {
   Link
@@ -20,7 +20,7 @@ class IntroBlock extends React.Component {
       <section className="homepage-introblock">
         <div className="container">
           <div className="columns">    
-            <div className="column">  
+            {/* <div className="column">  
               <div className="card">
                 <div className="card-item">
                   <figure className="image is-3by2">
@@ -36,7 +36,7 @@ class IntroBlock extends React.Component {
                     </div>
                   </div>  
               </div>
-            </div>  
+            </div>   */}
             <div className="column">  
               <div className="card">
                 <div className="card-item">
@@ -54,7 +54,7 @@ class IntroBlock extends React.Component {
                   </div>
               </div>
             </div>  
-            <div className="column">  
+            {/* <div className="column">  
               <div className="card">
                 <div className="card-item">
                   <figure className="image is-3by2">
@@ -69,8 +69,8 @@ class IntroBlock extends React.Component {
                         This is a collection of pictures, videos and audio clips that users can show off!
                     </div>
                   </div>
-              </div>
-            </div>  
+              </div>  
+            </div>   */}
             <div className="column">  
               <div className="card">
                 <div className="card-item">

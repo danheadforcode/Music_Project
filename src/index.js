@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 // Layouts
-import MainLayout from './layouts/MainLayout'
+import MainLayout from './layouts/MainLayout' 
 
 // Components
 import LoginUser from './containers/LoginUser'
@@ -16,14 +16,14 @@ import PlaceListPage from './containers/PlaceListPage'
 import ListCategory from './containers/ListCategory'
 import CreatePage from './containers/CreatePage'
 import CreateEvent from './containers/CreateEvent'
-import InspirationPage from './containers/InspirationPage'
+// import InspirationPage from './containers/InspirationPage'
 import EventPage from './containers/EventPage'
 import DashboardPage from './containers/DashboardPage'
 import PlacePage from './containers/PlacePage'
 import ProductListPage from './containers/ProductListPage'
 import MessagePage from './containers/MessagePage'
 import ThankyouPage from './containers/ThankyouPage'
-import ShowcasePage from './containers/ShowcasePage'
+// import ShowcasePage from './containers/ShowcasePage'
 import ContactPage from './containers/ContactPage'
 // import CreateCategory from './containers/CreateCategory'
 
@@ -66,7 +66,7 @@ ReactDOM.render((
         {/*<Route path='/contacts' component={BusinessPage} />*/}
         <Route path='/photos/create' component={CreatePage} />
         <Route path='/events/create' component={CreateEvent} />
-        <Route path='/inspiration' component={InspirationPage} />
+        {/* <Route path='/inspiration' component={InspirationPage} /> */}
         <Route path='/events/:id' component={EventPage} />
         {/*<Route path='/categories/create' component={CreateCategory} />*/}
         <Route path='/categories' component={ListCategory} />
@@ -74,7 +74,7 @@ ReactDOM.render((
         <Route path='signup' component={CreateUser}/>
         <Route path='registeryourinterest' component={MessagePage}/>
         <Route path='thankyou' component={ThankyouPage}/>
-        <Route path='showcase' component={ShowcasePage}/>
+        {/* <Route path='showcase' component={ShowcasePage}/> */}
         <Route path='contact' component={ContactPage}/>
       </Route>
     </Router>
