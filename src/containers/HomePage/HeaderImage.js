@@ -1,5 +1,5 @@
 import React from 'react';
-import logo_dim from "../../assets/logo_dim.png";
+import headerimage from "../../assets/headerimage.png";
  import {
    Link
  } from 'react-router'
@@ -13,16 +13,14 @@ class HeaderImage extends React.Component {
   render() {
 
     return (
-      <section className="homepage-headerimage">
-        <div className="container">     
+      <section className="homepage-headerimage">    
           <div className="level">
             <div className="level-left"></div>
-            <div className="level-item is-centered">
-              <img src={logo_dim} alt="D_I_M logo"/>
+            <div className="level-item image">
+              <img src={headerimage} alt="D_I_M logo on spain background"/>
             </div>
             <div className="level-right"></div>  
           </div>        
-        </div>
       </section>
     )
   }
