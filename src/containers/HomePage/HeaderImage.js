@@ -14,13 +14,9 @@ class HeaderImage extends React.Component {
 
     return (
       <section className="homepage-headerimage">    
-          <div className="level">
-            <div className="level-left"></div>
-            <div className="level-item image">
+            <div className="image is-fullwidth">
               <img src={headerimage} alt="D_I_M logo on spain background"/>
-            </div>
-            <div className="level-right"></div>  
-          </div>        
+            </div>       
       </section>
     )
   }
