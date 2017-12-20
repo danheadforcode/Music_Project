@@ -37,6 +37,8 @@ class IntroBlock extends React.Component {
                   </div>  
               </div>
             </div>   */}
+            <div className="column">
+            </div>
             <div className="column">  
               <div className="card">
                 <div className="card-item">
@@ -87,6 +89,8 @@ class IntroBlock extends React.Component {
                     </div>
                   </div>
               </div>
+            </div>
+            <div className="column">
             </div>  
           </div>    
         </div>
