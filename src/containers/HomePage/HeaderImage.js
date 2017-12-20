@@ -1,8 +1,8 @@
 import React from 'react';
 import logo_dim from "../../assets/logo_dim.png";
-import {
-  Link
-} from 'react-router'
+ import {
+   Link
+ } from 'react-router'
 
 class HeaderImage extends React.Component {
 
@@ -14,8 +14,14 @@ class HeaderImage extends React.Component {
 
     return (
       <section className="homepage-headerimage">
-        <div className="container">
-             
+        <div className="container">     
+          <div className="level">
+            <div className="level-left"></div>
+            <div className="level-item is-centered">
+              <img src={logo_dim} alt="D_I_M logo"/>
+            </div>
+            <div className="level-right"></div>  
+          </div>        
         </div>
       </section>
     )
@@ -39,4 +45,4 @@ class HeaderImage extends React.Component {
   }
 }
 
-export default HeaderImage
+export default HeaderImage;

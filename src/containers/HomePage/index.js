@@ -3,7 +3,7 @@ import React from 'react'
 // import PlaceSection from './PlaceSection'
 // import MapSection from './MapSection'
 import IntroBlock from './IntroBlock'
-import HeaderIamge from './HeaderIamge'
+import HeaderImage from './HeaderImage'
 import { withRouter } from 'react-router'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
@@ -20,7 +20,7 @@ class HomePage extends React.Component {
   render () {
     return (
       <article>
-        <HeaderIamge/>
+        <HeaderImage/>
         { /* Dan, added a new paramater here to pass data to the IntroBlock component, this object includes our user details */ }
         <IntroBlock data={this.props.data}/>
         {/* <MapSection /> */}
