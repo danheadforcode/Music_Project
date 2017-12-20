@@ -26,7 +26,7 @@ class Header extends React.Component {
             </div>
           </div>
         </header>
-        <div className="hero-body">
+        {/* <div className="hero-body">
           <div className="container has-text-centered">
             <h1 className="title is-1">
               Dan_Is_Me
@@ -36,7 +36,8 @@ class Header extends React.Component {
               Productions
             </div>
           </div>
-        </div>
+        </div> */}
+        {/*  commented out the code for the big header */}
       </div> 
     </section>
   );
