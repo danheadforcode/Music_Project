@@ -23,12 +23,12 @@ class Footer extends React.Component {
                 </a>
               </div>
               <div className="column is-one-sixth">
-                <a href="https://www.youtube.com/channel/UCQVng41_gOzP4STCR6CV_GA">
+                <a href="https://www.youtube.com/channel/UCQVng31_gOzP4STCR6CV_GA">
                   <i className="fab fa-youtube fa-4x"></i>
                 </a>
               </div>
               <div className="column is-one-sixth">
-                <a href="https://www.instagram.com/dimproductions">
+                <a href="https://www.instagram.com/dimproduction">
                   <i className="fab fa-instagram fa-3x"></i>
                 </a>
               </div>
