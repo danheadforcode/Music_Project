@@ -73,7 +73,7 @@ class IntroBlock extends React.Component {
                   </div>
               </div>  
             </div>   */}
-            <div className="column">  
+            {/* <div className="column">  
               <div className="card">
                 <div className="card-item">
                   <figure className="image is-3by2">
@@ -89,7 +89,7 @@ class IntroBlock extends React.Component {
                     </div>
                   </div>
               </div>
-            </div>
+            </div> */}
             <div className="column">
             </div>  
           </div>    
