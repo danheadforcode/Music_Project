@@ -15,13 +15,13 @@ class Header extends React.Component {
             <div className="navbar-menu" id="navbarMenu">
              <div className="navbar-start"> 
               <Link to="/" className="navbar-item">
-                <span>  
+                {/* <span>  
                   Home
-                </span>  
+                </span>   */}
               </Link>    
-              <Link to="/products" className="navbar-item">
+              {/* <Link to="/products" className="navbar-item">
                 <span>Products</span>
-              </Link>
+              </Link> */}
              </div> 
             </div>
           </div>
